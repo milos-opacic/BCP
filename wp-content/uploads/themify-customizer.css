@@ -1,0 +1,87 @@
+/* Themify Customize Styling */
+#headerwrap a {	
+	color: rgba(255,255,255,0.84); 
+}
+#headerwrap a:hover {	
+	color: #858585; 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: rgba(255,255,255,0.63); 
+}
+#headerwrap.fixed-header #site-logo img {		width: 90px;
+	height: 60px; 
+}
+body:not(.mobile_menu_active) #headerwrap.fixed-header #header a {	
+	color: rgba(0,0,0,0.75); 
+}
+body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {	
+	color: rgba(255,255,255,0.75); 
+}
+body[class*="themify"] #site-logo a img {		width: 90px;
+	height: 60px; 
+}
+#main-nav a {		font-size:30px;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: rgba(255,255,255,0.85); 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #858585; 
+}
+@media screen and (max-width: 1280px) { /* Themify Customize Styling */
+#headerwrap.fixed-header #site-logo img {		width: 90px;
+	height: 60px; 
+}
+body[class*="themify"] #site-logo a img {		width: 90px;
+	height: 60px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#headerwrap.fixed-header #site-logo img {		width: 90px;
+	height: 60px; 
+}
+body[class*="themify"] #site-logo a img {		width: 90px;
+	height: 60px; 
+}
+ }@media screen and (max-width: 680px) { /* Themify Customize Styling */
+#headerwrap a {	
+	color: rgba(255,255,255,0.84); 
+}
+#headerwrap a:hover {	
+	color: #858585; 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: rgba(255,255,255,0.63); 
+}
+#headerwrap.fixed-header #site-logo img {		width: 90px;
+	height: 60px; 
+}
+body:not(.mobile_menu_active) #headerwrap.fixed-header #header a {	
+	color: rgba(0,0,0,0.75); 
+}
+body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {	
+	color: rgba(255,255,255,0.75); 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: rgba(255,255,255,0.85); 
+}
+#main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
+	color: #858585; 
+}
+ }.mobile-menu-visible.header-slide-out .sidemenu-on, .mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .mobile_menu_active #headerwrap .sidemenu-on { background: none;
+	background-color: rgba(255,255,255,0.85); }.mobile_menu_active #headerwrap .sidemenu-on a, .mobile_menu_active #headerwrap #main-nav a, .mobile_menu_active #headerwrap #main-nav ul a { 
+	color: rgba(23,23,23,0.89); }.mobile_menu_active #headerwrap .sidemenu-on a:hover, .mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover { 
+	color: rgba(74,74,74,0.09); }
+/* Themify Custom CSS */
+#header img {
+	display: none;
+}
+
+@font-face {
+	font-family: "BebasBold";
+	src: url("http://vps646859.ovh.net/bcp/wp-content/fonts/BebasNeue Bold.otf");
+}
+
+#main-nav {
+	font-family: "BebasBold";
+}

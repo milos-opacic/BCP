@@ -1,0 +1,24 @@
+.themify_builder_9_row.module_row_0.module_row{background-image: url("http://vps646859.ovh.net/bcp/wp-content/uploads/2019/03/Kujsli.jpg"); background-repeat: no-repeat;background-size: cover; background-attachment: scroll; background-position: center center; }
+.themify_builder_9_row.module_row_0.module_row>.builder_row_cover::before{background-image:-webkit-linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+background-image:-o-linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+}
+.themify_builder_9_row.module_row_0.module_row>div.row_inner{background-repeat: repeat; background-attachment: scroll; background-position: center center; }
+.themify_builder .image-9-0-0-0.module-image{background-repeat: repeat; background-position: left top; padding-top:10%; padding-bottom:10%; }
+.themify_builder_9_row.module_row_1.module_row{background-image: url("http://vps646859.ovh.net/bcp/wp-content/uploads/2019/03/BCPMobilni.jpg"); background-repeat: no-repeat;background-size: cover; background-attachment: scroll; background-position: left center; padding-top:20%; padding-bottom:20%; }
+.themify_builder_9_row.module_row_1.module_row>.builder_row_cover::before{background-image:-webkit-linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+background-image:-o-linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.44) 0%,rgba(255, 255, 255, 0.07) 98%);
+}
+.themify_builder_9_row.module_row_1.module_row>div.row_inner{background-repeat: repeat; background-attachment: scroll; background-position: center center; }
+@media screen and (max-width: 680px) {.themify_builder_9_row.module_row_1.module_row{background-attachment: scroll; background-position: left center; }
+.themify_builder_9_row.module_row_1.module_row>div.row_inner{background-repeat: repeat; background-attachment: scroll; background-position: center center; }
+}
+.themify_builder .image-9-1-0-0.module-image{background-repeat: repeat; background-position: left top; padding-top:10%; padding-bottom:20%; }
+.themify_builder_9_row.module_row_2.module_row{background-image: url("http://vps646859.ovh.net/bcp/wp-content/uploads/2019/03/O-nama.png"); background-repeat: no-repeat;background-size: cover; background-attachment: scroll; background-position: center center; padding-top:10%; padding-bottom:25%; }
+.themify_builder_9_row.module_row_2.module_row>div.row_inner{background-repeat: repeat; background-attachment: scroll; background-position: center center; }
+.themify_builder_9_row.module_row_3.module_row{background-repeat: repeat; background-attachment: scroll; background-position: center center; padding-top:5%; }
+.themify_builder_9_row.module_row_3.module_row>div.row_inner{background-repeat: repeat; background-attachment: scroll; background-position: center center; }
+.themify_builder .fancy-heading-9-3-0-0.module-fancy-heading{background-repeat: repeat; background-position: left top; }
+.themify_builder .fancy-heading-9-3-0-0.module.module-fancy-heading .sub-head:before{border-top:none; }
+.themify_builder .gallery-9-3-0-1.module-gallery{background-repeat: repeat; background-position: left top; }
