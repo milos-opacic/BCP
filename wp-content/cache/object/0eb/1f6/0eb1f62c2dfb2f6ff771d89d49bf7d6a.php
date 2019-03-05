@@ -1,0 +1,1 @@
+¿Â~\<?php exit; ?>a:1:{s:7:"content";s:65:"http://vps646859.ovh.net/bcp/wp-includes/images/media/default.png";}

@@ -88,9 +88,6 @@ body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {
 	color: rgba(74,74,74,0.09); }.mobile_menu_active.header-leftpane #pagewrap #headerwrap .header-icons #menu-icon, .mobile_menu_active.header-rightpane #pagewrap #headerwrap .header-icons #menu-icon, #headerwrap #menu-icon, .mobile_menu_active.header-horizontal #headerwrap #menu-icon { 
 	color: rgba(26,26,26,0.79); }
 /* Themify Custom CSS */
-/* #header img {
-	display: none;
-} */
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -101,19 +98,17 @@ html, body {
 	src: url("http://vps646859.ovh.net/bcp/wp-content/fonts/BebasNeue Bold.otf");
 }
 
-#main-nav, h1{
-	font-family: "BebasBold";
-}
-
 @font-face {
 	font-family: "BebasReg";
 	src: url("http://vps646859.ovh.net/bcp/wp-content/fonts/BebasNeue Regular.otf");
 }
 
-h3 {
+.aboutparaf {
 	font-family: "BebasReg";
-	letter-spacing: 0.15em;
-	font-size: 21px;
+}
+
+#main-nav, h1{
+	font-family: "BebasBold";
 }
 
 #sidebar, p{
