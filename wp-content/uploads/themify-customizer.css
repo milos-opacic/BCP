@@ -1,4 +1,7 @@
 /* Themify Customize Styling */
+.header-classic #headerwrap, #headerwrap {	background: none;
+	background-color: rgba(23,23,23,0.78); 
+}
 #headerwrap a {	
 	color: rgba(255,255,255,0.84); 
 }
@@ -17,6 +20,8 @@ body:not(.mobile_menu_active) #headerwrap.fixed-header #header a {
 body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {	
 	color: rgba(255,255,255,0.75); 
 }
+body[class*="themify"] #site-logo a {	display: none; 
+}
 body[class*="themify"] #site-logo a img {		width: 90px;
 	height: 60px; 
 }
@@ -28,6 +33,15 @@ body[class*="themify"] #site-logo a img {		width: 90px;
 }
 #main-nav-wrap #main-nav a:hover, #main-nav-wrap #main-nav > li > a:hover {	
 	color: #858585; 
+}
+#main-nav-wrap #main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: rgba(0,0,0,0.74); 
+}
+#footer a {	
+	color: rgba(20,20,20,0.72); 
+}
+#footer a:hover {	
+	color: #000000; 
 }
 @media screen and (max-width: 1280px) { /* Themify Customize Styling */
 #headerwrap.fixed-header #site-logo img {		width: 90px;
@@ -71,10 +85,15 @@ body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {
  }.mobile-menu-visible.header-slide-out .sidemenu-on, .mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .mobile_menu_active #headerwrap .sidemenu-on { background: none;
 	background-color: rgba(255,255,255,0.85); }.mobile_menu_active #headerwrap .sidemenu-on a, .mobile_menu_active #headerwrap #main-nav a, .mobile_menu_active #headerwrap #main-nav ul a { 
 	color: rgba(23,23,23,0.89); }.mobile_menu_active #headerwrap .sidemenu-on a:hover, .mobile_menu_active #headerwrap #main-nav a:hover, .mobile_menu_active #headerwrap #main-nav ul a:hover { 
-	color: rgba(74,74,74,0.09); }
+	color: rgba(74,74,74,0.09); }.mobile_menu_active.header-leftpane #pagewrap #headerwrap .header-icons #menu-icon, .mobile_menu_active.header-rightpane #pagewrap #headerwrap .header-icons #menu-icon, #headerwrap #menu-icon, .mobile_menu_active.header-horizontal #headerwrap #menu-icon { 
+	color: rgba(26,26,26,0.79); }
 /* Themify Custom CSS */
-#header img {
+/* #header img {
 	display: none;
+} */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -82,6 +101,22 @@ body:not(.mobile_menu_active) #headerwrap.fixed-header #header a:hover {
 	src: url("http://vps646859.ovh.net/bcp/wp-content/fonts/BebasNeue Bold.otf");
 }
 
-#main-nav {
+#main-nav, h1{
 	font-family: "BebasBold";
 }
+
+@font-face {
+	font-family: "BebasReg";
+	src: url("http://vps646859.ovh.net/bcp/wp-content/fonts/BebasNeue Regular.otf");
+}
+
+h3 {
+	font-family: "BebasReg";
+	letter-spacing: 0.15em;
+	font-size: 21px;
+}
+
+#sidebar, p{
+	display: none;
+}
+
