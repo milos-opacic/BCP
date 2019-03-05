@@ -1,1 +1,0 @@
-√Í~\<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:7:"version";s:5:"4.2.4";s:3:"url";s:1:"#";s:5:"class";s:17:"upgrade-framework";s:6:"target";s:0:"";}}
